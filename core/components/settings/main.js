@@ -20,6 +20,15 @@ angular.module('mm.core.settings', [])
 
     $stateProvider
 
+    .state('site.tutorials', {
+        url: '/tutorials',
+        views: {
+            'site': {
+                templateUrl: 'core/components/settings/templates/tutorials.html'
+            }
+        }
+    })
+
     .state('site.mm_settings', {
         url: '/mm_settings',
         views: {
