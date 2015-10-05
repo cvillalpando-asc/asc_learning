@@ -8072,3 +8072,4 @@ input.mma-files-picker {
 
 a.item[href='https://docs.moodle.org/29/es-mx/Mobile_app']{ display: none } 
 section[ng-if='canAccessFiles()'] section.list.card:last-child { display:none; }
+ion-side-menu[side="left"] ion-content ul.list li:nth-child(2) { display: none; }
