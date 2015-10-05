@@ -7715,7 +7715,7 @@ em {
  */
 .bar-content {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #4661a4;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff; }
   .bar-content .title {
@@ -7911,7 +7911,7 @@ img.mm-media-adapt-width {
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #4661a4;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
   height: 80px !important; }
@@ -8069,3 +8069,6 @@ input.mma-files-picker {
 .button.active, .button.activated {
   box-shadow: none;
   color: #fff; }
+
+a.item[href='https://docs.moodle.org/29/es-mx/Mobile_app']{ display: none } 
+section[ng-if='canAccessFiles()'] section.list.card:last-child { display:none; }
